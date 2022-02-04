@@ -1,0 +1,249 @@
+/* .botao{
+background-color: black;
+color:red;
+width: 1920px;
+height: 300px;
+font-size: 100px;
+} */
+.botao{
+    margin-bottom: 13px;
+    background-color: wheat;
+    color:black;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    background: wheat;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    border-radius: 20px;
+    position: relative;
+    }
+    
+.header{
+position: relative;
+
+
+    }
+.titulo{
+font-size: 50px;
+margin-top: 0px;
+height: 80px;
+background-color:wheat;
+padding-left: 820px;
+padding-right:820px;
+
+}
+.divdosdivs{
+}
+.nome{
+position: absolute;
+left: 1600px;
+top: 15px;
+}
+.divbotao{
+}
+.divselect{
+
+}
+body {
+    
+    background-color:rgb(245, 237, 224);
+    font-family: "Cabin";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+.inputloginPass{
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px ;
+    height: 20px;
+    margin-bottom: 25px;
+    width: 160px;
+    color: #CCC;
+    position: relative;
+    min-width: 190px;
+    transition: 900ms;
+}
+.inputloginPass:focus{
+    background-color: rgb(123, 133, 131);
+    opacity: 55%;
+    border: none;
+    border-radius: 6px;
+}
+.field {
+    position: relative;
+    height: 60px;
+    margin-top:25px;
+    margin-bottom: 15px;
+    line-height: 0;
+}
+.field1 {
+    position: relative;
+    height: 60px;
+    margin-top:25px;
+    margin-bottom: 15px;
+    line-height: 0;
+}
+
+.field2 {
+    position: relative;
+    height: 60px;
+    margin-top:15px;
+    line-height: 0
+}
+
+.errorLogin {
+    color: rgb(206, 195, 195);
+    position: relative;
+    bottom: 15px;
+    font-size: 15px
+}
+
+.inputlogin {
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px ;
+    height: 20px;
+    margin-bottom: 25px;
+    width: 160px;
+    color: #CCC;
+    position: relative;
+    min-width: 190px;
+    transition: 900ms;
+}
+.inputlogin:focus{
+    text-align: center;
+    outline: solid ;
+    background-color: rgb(151, 158, 157);
+    opacity: 55%;
+    border-radius: 6px;
+
+}
+.login{
+ position: absolute;
+ left: 45%; 
+}
+
+.inputSignup {
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px ;
+    height: 20px;
+    margin-bottom: 25px;
+    width: 160px;
+    color: #CCC;
+    position: relative;
+    min-width: 190px;
+    transition: 900ms;
+}
+.inputSignup:focus{
+    text-align: center;
+    outline: solid ;
+    background-color: rgb(151, 158, 157);
+    opacity: 55%;
+    border-radius: 6px;
+
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: rgb(151, 158, 157);
+}
+
+
+.buttonLogin {
+    position: relative;
+    max-width: 190px;
+    border: none;
+    outline: 1px solid rgb(139, 132, 132);
+    background: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-bottom: 25px;
+}
+.buttonSignup {
+    position: relative;
+    max-width: 190px;
+    border: none;
+    outline: 1px solid rgb(139, 132, 132);
+    background: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-bottom: 25px;
+}
+.buttonLogin:hover,.buttonSignup:hover {
+    box-shadow: 0 0 3px 2px rgb(255, 255, 255);
+    background-color: rgb(192, 185, 185);
+    outline: 1px solid rgb(139, 132, 132);
+    font-style: white;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.title{
+    position: relative;
+    height: 60px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    max-width: 400px;
+}
+
+.Genre{
+    position: relative;
+    height: 60px;
+    margin-top:25px;
+    margin-bottom: 5px;
+    max-width: 400px;
+}
+
+.Author{
+    position: relative;
+    height: 60px;
+    margin-top:25px;
+    margin-bottom: 5px;
+    max-width: 400px;
+}
+
+.desc{
+    position: relative;
+    height: 150px;
+    margin-bottom: 15px;
+    max-width: 400px;
+}
+
+.content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: fit-content ;
+    left: 40%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: ivory;
+    border-radius: 15px;
+}
+
+.signoutButton{
+    position: absolute;
+    /* border: solid; */
+    top: 30px;
+    left: 30px;
+}
+
+.bookName {
+}
